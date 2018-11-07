@@ -5,7 +5,6 @@ get '/' do
 end
 
 post '/abuela' do
-  params[:abu]
   if params[:abu].upcase == params[:abu]
     "Ahhh si, manzanas!"
   else
